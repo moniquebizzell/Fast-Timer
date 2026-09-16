@@ -1,0 +1,6 @@
+{
+  "name": "FastTimer",
+  "description": "A clean, minimalist intermittent fasting timer with customizable fast protocols, circular countdown, target mealtime display, and local notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

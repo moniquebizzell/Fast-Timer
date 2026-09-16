@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Safe zone 66dp is within (21,21) to (87,87), center (54,54) -->
+    <!-- Outer Arc track (subtle background track) -->
+    <path
+        android:pathData="M54,27 A27,27 0 1,1 27,54"
+        android:strokeWidth="4.5"
+        android:strokeColor="#3D7D62"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Active Fasting Arc (radiant mint) -->
+    <path
+        android:pathData="M27,54 A27,27 0 0,1 54,27"
+        android:strokeWidth="4.5"
+        android:strokeColor="#52DE97"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Center clock hands and dot -->
+    <path
+        android:pathData="M54,54 L54,37"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,54 L66,54"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Central pivot point -->
+    <path
+        android:pathData="M54,51 A3,3 0 1,1 53.9,51"
+        android:fillColor="#52DE97" />
+    <!-- Small star/sparkle representing goal completion at top right -->
+    <path
+        android:pathData="M73,35 L74.5,39 L78.5,40.5 L74.5,42 L73,46 L71.5,42 L67.5,40.5 L71.5,39 Z"
+        android:fillColor="#F6C358" />
+</vector>
